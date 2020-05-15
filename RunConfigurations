@@ -1,0 +1,15 @@
+Run the tests:
+
+1. Build the project with the command: gradlew build (in Terminal) or just build the project in Intellij IDE
+2. Open Run/Debug Configuration -> Edit Configurations in Intellij IDE and choose JUnit from the dropdown
+3. If you want to run all tests from the class you can choose 'Class' option from the dropdown and to type the name of the class. If you want to run any specific 
+test from class, you have to choose 'Method' option from the dropdown and to type the name of the method which you want to run.
+4. In VM Option field you have to add your credentials which you using to login in the site. 
+For example: -ea -Dusername=Hristinka.Mineva@westernacher.com -Dpassword=123456
+5. Choose classpath of module to be: test
+6. Choose JRE (in the project I'm using JRE 11.0.3)
+7. Apply the configuration and run the tests
+ 
+ 
+Note: In the project I use WebDriverManager insted of Selenium Standalone Server. Also I use Thread.sleep() which is not good practice but this is 
+because of the performance od the application.

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--Suite-->
+<suite name="Suite1">
+    <!--Test-->
+    <test name="My Example test" >
+        <!--Test Class-->
+        <classes>
+            <class name="westernachertests.PersonalLeaveTests"/>
+            <class name="westernachertests.SignUpTests" />
+        </classes>
+    </test>
+</suite>

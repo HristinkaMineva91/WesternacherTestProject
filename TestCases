@@ -1,0 +1,52 @@
+Test Cases:
+
+1. Check that the user is logged in the application.
+2. Check that Personal Leave Days are shown correctly.
+3. Check that Personal Leave Days can be saved successfully.
+4. Check that past Personal Leave Days can not to be added.
+5. Check that Personal Leave Days can be edited.
+6. Check that Personal Leave Days can be deleted.
+7. Check that Personal Leave Days can be requested.
+8. Check that Personal Leave Days can be exported.
+9. Check that Personal Leave Days can be saved as PDF file.
+10. Check that Personal Leave Days can be saved as Webex Document.
+11. Check that Personal Leave Days can be saved to Google Drive.
+11. Check that 'Export' modal dialog can be closed.
+13. Check that web site supports different languages.
+14. Check that all pages are translated to Deutsch when switch the language to Deutsch.
+15. Check that all pages are translated to Bulgarian when switch the language to Bulgarian.
+16. Check that Personal Leave Days can be changed with past days.
+17. Check that Days off are equal or less than the available days.
+18. Check that 'Date From' is equal or less than 'Date To'.
+19. Check that the error message is shown when the user hasn't available leave days.
+20. Check that the error message is shown when the user selects more than his available days.
+21. Check that 'Add' modal dialog can be closed.
+22. Check that 'Edit' modal dialog can be closed.
+23. Check that more Personal Leave Days can be added.
+24. Check that all Personal Leave Days can be deleted without errors.
+25. Check that all Personal Leave Days can be deleted without errors.
+26. Check that all Personal Leave Days can be requested without errors.
+27. Check that 'From Date' and 'To Date' fields can not contain values greater than 12 for months.
+28. Check that 'From Date' and 'To Date' fields can not contain values greater than 31 for days.
+29. Check that 'From Date' and 'To Date' fields can be empty.
+30. Check that 'From Date' and 'To Date' fields can contain only days and year.
+31. Check that 'From Date' and 'To Date' fields can contain only month and year.
+32. Check that 'From Date' and 'To Date' fields can contain only days and month.
+33. Check that 'From Date' and 'To Date' fields can contain only days.
+34. Check that 'From Date' and 'To Date' fields can contain only month.
+35. Check that 'From Date' and 'To Date' fields can contain only year.
+36. Check that Personal Leave Page contains the added values from 'Add' modal dialog (From Date, To Date, Days, Days off)
+37. Check that all requests are accepted without timeout of the server
+38. Check that the user can make more than one Personal Leave requests
+
+
+
+
+
+
+
+
+
+
+
+
